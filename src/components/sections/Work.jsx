@@ -20,7 +20,7 @@ const Work = () => {
               Weather and other preferences give suggestions on indoor and
               outdoor activies
             </p>
-            <div>
+            <div className='flex flex-wrap gap-2 mb-4'>
               {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
                 <span
                   className='bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition'
@@ -48,7 +48,7 @@ const Work = () => {
               Weather and other preferences give suggestions on indoor and
               outdoor activies
             </p>
-            <div>
+            <div className='flex flex-wrap gap-2 mb-4'>
               {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
                 <span
                   className='bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition'
@@ -76,7 +76,7 @@ const Work = () => {
               Weather and other preferences give suggestions on indoor and
               outdoor activies
             </p>
-            <div>
+            <div className='flex flex-wrap gap-2 mb-4'>
               {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
                 <span
                   className='bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition'
@@ -104,7 +104,7 @@ const Work = () => {
               Weather and other preferences give suggestions on indoor and
               outdoor activies
             </p>
-            <div>
+            <div className='flex flex-wrap gap-2 mb-4'>
               {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
                 <span
                   className='bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition'
@@ -132,7 +132,7 @@ const Work = () => {
               Weather and other preferences give suggestions on indoor and
               outdoor activies
             </p>
-            <div>
+            <div className='flex flex-wrap gap-2 mb-4'>
               {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
                 <span
                   className='bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition'
@@ -160,7 +160,7 @@ const Work = () => {
               Weather and other preferences give suggestions on indoor and
               outdoor activies
             </p>
-            <div>
+            <div className='flex flex-wrap gap-2 mb-4'>
               {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
                 <span
                   className='bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition'
