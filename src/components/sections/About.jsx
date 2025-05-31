@@ -14,13 +14,13 @@ const About = () => {
   return (
     <section
       id='about'
-      className='min-h-screen flex items-center justify-center py-20'
+      className='min-h-screen flex items-center justify-center py-18'
     >
       <div className='max-w-3xl mx-auto px-4'>
         <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center'>
           About Me.
         </h2>
-        <div className='rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all'>
+        <div className='rounded-xl p-7.5 border-white/10 border hover:-translate-y-1 transition-all'>
           <p className='text-gray-300 mb-6'>
             Software engineer with 2 years of experience in full-stack
             development and testing, skilled in React, Angular, Java Spring
@@ -31,7 +31,7 @@ const About = () => {
             experience in automation tools and DevOps practices.{' '}
           </p>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-            <div className='rounded-xl p-6 hover:-translate-y-1 transition-all'>
+            <div className='rounded-xl p-4 hover:-translate-y-1 transition-all'>
               <h3 className='text-xl font-bold mb-4'>Framework and Tools </h3>
               <div className='flex flex-wrap gap-2'>
                 {tools.map((tech, key) => (
@@ -75,6 +75,24 @@ const About = () => {
           </div>
           <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition all'>
             <h3 className='text-xl font-bold mb-4'>Work Experience </h3>
+            <div className='space-y-3 text-gray-300'>
+              <div className=''>
+                <h4 className='font-semibold pb-2'>
+                  Assoicate Analyst at Deloitte USI (US offices in India) -
+                  2022-2024
+                </h4>
+                <p className='pb-2'>
+                  Developed a React-based front-end to convert multi-source data
+                  (CSV, XML, REST APIs) into standardized JSON,for real-time
+                  parsing and validation.
+                </p>
+                <p>
+                  Designed and implemented responsive user dashboards for core
+                  insurance information data from multiple source systems using
+                  Angular and Chart.js.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
