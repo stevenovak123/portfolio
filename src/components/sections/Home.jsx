@@ -19,13 +19,13 @@ const Home = () => {
           <div className='flex justify-center space-x-4'>
             <a
               href='#work'
-              className='border border-[rgb(79,111,82)] bg-[rgb(79,111,82)]  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)]'
+              className='border border-[rgb(79,111,82)] bg-[rgb(79,111,82)]   text-[rgb(245,239,230)] py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)]'
             >
               View Work
             </a>
             <a
               href='#contact'
-              className='border border-[rgb(79,111,82)]  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)]'
+              className='border border-[rgb(79,111,82)]  text-[rgb(245,239,230)] py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)]'
             >
               Contact
             </a>

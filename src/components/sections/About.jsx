@@ -67,8 +67,10 @@ const About = () => {
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-8'>
             <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition all'>
-              <h3 className='text-xl font-bold mb-4'>Education </h3>
-              <ul className='list-disc list-inside text-gray-300 space-y-2'>
+              <h3 className='text-xl font-bold mb-4  text-[rgb(245,239,230)]'>
+                Education{' '}
+              </h3>
+              <ul className='list-disc list-inside text-[rgb(232,223,202)] space-y-2'>
                 <li>
                   <strong>M.S in Advanced Software Engineering</strong> -
                   University of Leicester(2025-Current)
@@ -80,8 +82,10 @@ const About = () => {
               </ul>
             </div>
             <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition all'>
-              <h3 className='text-xl font-bold mb-4'>Work Experience </h3>
-              <div className='space-y-3 text-gray-300'>
+              <h3 className='text-xl font-bold mb-4 text-[rgb(245,239,230)]'>
+                Work Experience{' '}
+              </h3>
+              <div className='space-y-3 text-[rgb(232,223,202)]'>
                 <div className=''>
                   <h4 className='font-semibold pb-2'>
                     Assoicate Analyst at Deloitte USI (US offices in India) -
