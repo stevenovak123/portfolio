@@ -5,14 +5,11 @@ const NavBar = ({ menuOpen, setIsMenuOpen }) => {
     document.body.style.overflow = menuOpen ? 'hidden' : '';
   }, [menuOpen]);
   return (
-    <nav className='fixed top-0 w-full z-40 bg-[rgb(#4f6f52)] backdrop-blur-lg border-b border-white/10 shadow-lg'>
+    <nav className='fixed top-0 w-full z-40  backdrop-blur-lg border-b border-white/10 shadow-lg'>
       <div className='max-w-5xl mx-auto px-4'>
         <div className='flex justify-between items-center h-16'>
-          <a
-            href='#home'
-            className='font-mono text-xl font-bold text-[rgb(#f5efe6)]'
-          >
-            <span className='text-[#4f6f52]'>Steve </span>
+          <a href='#home' className='font-mono text-xl font-bold'>
+            <span className='text-[rgb(79,111,82)]'>Steve </span>
             Dsouza
           </a>
           <div
@@ -24,25 +21,25 @@ const NavBar = ({ menuOpen, setIsMenuOpen }) => {
           <div className='hidden md:flex items-center space-x-8 '>
             <a
               href='#home'
-              className='text-[rgb(#f5efe6)]-300 hover:text-[rgb(#f5efe6)] transition-colors'
+              className='text-[rgb(245,239,230)]-300 hover:text-[rgb(245,239,230)] transition-colors'
             >
               Home
             </a>
             <a
               href='#about'
-              className='text-[rgb(#f5efe6)]-300 hover:text-[rgb(#f5efe6)] transition-colors'
+              className='text-[rgb(245,239,230)]-300 hover:text-[rgb(245,239,230)] transition-colors'
             >
               About
             </a>
             <a
               href='#work'
-              className='text-[rgb(#f5efe6)]-300 hover:text-[rgb(#f5efe6)] transition-colors'
+              className='text-[rgb(245,239,230)]-300 hover:text-[rgb(245,239,230)] transition-colors'
             >
               Work
             </a>
             <a
               href='#contact'
-              className='text-[rgb(#f5efe6)]-300 hover:text-[rgb(#f5efe6)] transition-colors'
+              className='text-[rgb(245,239,230)]-300 hover:text-[rgb(245,239,230)] transition-colors'
             >
               Contact
             </a>
