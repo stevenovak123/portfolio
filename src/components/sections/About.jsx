@@ -73,7 +73,7 @@ const About = () => {
               <ul className='list-disc list-inside text-[rgb(232,223,202)] space-y-2'>
                 <li>
                   <strong>M.S in Advanced Software Engineering</strong> -
-                  University of Leicester(2025-Current)
+                  University of Leicester (2025-Current)
                 </li>
                 <li>
                   Relevant Coursework: System Oriented Architecture, Algorithms,
