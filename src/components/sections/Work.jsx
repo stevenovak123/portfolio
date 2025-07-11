@@ -69,7 +69,7 @@ const Work = () => {
               </div>
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)]transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
                   href='https://github.com/stevenovak123/SOA_assignment'
                   target='_blank'
                   rel='noopener noreferrer'
