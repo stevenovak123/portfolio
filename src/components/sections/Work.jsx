@@ -141,7 +141,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-
+{/* Uncomment once future projects are done */}
             {/* 3.1 */}
             {/* <div className='p-6 rounded-xl border border-[rgb(79,111,82)]   text-[rgb(245,239,230)] hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition-all'>
               <h3 className='text-xl font-bold mb-2 text-[rgb(245,239,230)]'>
