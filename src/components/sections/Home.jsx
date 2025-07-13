@@ -13,7 +13,7 @@ const Home = () => {
             Hello, I'm Steve.
           </h1>
           <p className='text-[rgb(232,223,202)] text-l mb-8 max-w-lg mx-auto'>
-            Software Engineer | JavaScript | TypeScript | Java | Spring Boot .
+            Software Engineer | JavaScript | Node.Js | Java | Spring Boot .
           </p>
           <div className='flex justify-center space-x-4'>
             <a
