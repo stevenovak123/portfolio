@@ -1,5 +1,6 @@
 import React from 'react';
 import RevealOnScroll from '../RevealOnScroll';
+import { FaArrowRight } from 'react-icons/fa';
 const Contact = () => {
   return (
     <section
@@ -22,12 +23,12 @@ const Contact = () => {
 
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   target='_blank'
                   rel='noopener noreferrer'
                   href='mailto:stevenovak0802@gmail.com'
                 >
-                  Click here to email 🡢
+                  Click here to email <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>
@@ -41,12 +42,12 @@ const Contact = () => {
 
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   href='https://www.linkedin.com/in/stevenovak123/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  View Profile 🡢
+                  View Profile <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>
@@ -59,12 +60,12 @@ const Contact = () => {
               </p>
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://github.com/stevenovak123'
                 >
-                  View Profile 🡢
+                  View Profile <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>
@@ -80,12 +81,12 @@ const Contact = () => {
 
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://drive.google.com/file/d/10i_x7BCPfZfe1f8wwN2DQ6NzCa7m0rPF/view?usp=sharing'
                 >
-                  View CV 🡢
+                  View CV <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>

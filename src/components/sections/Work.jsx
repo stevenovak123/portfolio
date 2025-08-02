@@ -1,5 +1,6 @@
 import React from 'react';
 import RevealOnScroll from '../RevealOnScroll';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Work = () => {
   return (
@@ -14,6 +15,42 @@ const Work = () => {
           </h2>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
             {/* 1.1 */}
+
+            <div className='p-6 rounded-xl border border-[rgb(79,111,82)]   text-[rgb(245,239,230)] hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition-all'>
+              <h3 className='text-xl font-bold mb-2 text-[rgb(245,239,230)]'>
+                Linker: Url-shortening app
+              </h3>
+              <p className='text-[rgb(232,223,202)] mb-3'>
+                a user-friendly URL-shortening app that allows users to create
+                short, shareable links with real-time analytics. It features
+                link tracking, click-through data, and authentication for
+                personalized management of shortened URLs.
+              </p>
+              <div className='flex flex-wrap gap-2 mb-4'>
+                {['React', 'Supabase', 'ShadCN', 'Recharts'].map(
+                  (tech, key) => (
+                    <span
+                      className=' bg-[rgb(79,111,82)]  text-[rgb(245,239,230)] py-1 px-3 rounded-full hover:bg-[rgba(79,111,82,0.2)] hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition'
+                      key={key}
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className=' flex justify-between items-center'>
+                <a
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
+                  href='https://url-shortener-virid-nine.vercel.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Project <FaArrowRight className=' mt-1' />
+                </a>
+              </div>
+            </div>
+            {/* 1.2 */}
+
             <div className='p-6 rounded-xl border border-[rgb(79,111,82)]   text-[rgb(245,239,230)] hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition-all'>
               <h3 className='text-xl font-bold mb-2 text-[rgb(245,239,230)]'>
                 Learn Docs
@@ -37,12 +74,12 @@ const Work = () => {
               </div>
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   href='https://stevenovak123.github.io/learndocs/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  View Project 🡢
+                  View Project <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>
@@ -69,12 +106,12 @@ const Work = () => {
               </div>
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   href='https://github.com/stevenovak123/event-platform'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  View Code 🡢
+                  View Code <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>
@@ -100,12 +137,12 @@ const Work = () => {
               </div>
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   href='https://github.com/stevenovak123/SOA_assignment'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  View Code 🡢
+                  View Code <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>
@@ -132,78 +169,15 @@ const Work = () => {
               </div>
               <div className=' flex justify-between items-center'>
                 <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
+                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4 flex gap-1'
                   href='https://github.com/stevenovak123/httpserverjava'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  View Code 🡢
+                  View Code <FaArrowRight className=' mt-1' />
                 </a>
               </div>
             </div>
-{/* Uncomment once future projects are done */}
-            {/* 3.1 */}
-            {/* <div className='p-6 rounded-xl border border-[rgb(79,111,82)]   text-[rgb(245,239,230)] hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition-all'>
-              <h3 className='text-xl font-bold mb-2 text-[rgb(245,239,230)]'>
-                Activity Recommendation Service
-              </h3>
-              <p className='text-[rgb(232,223,202)] mb-3'>
-                Recommends an activity with City as input and then using the
-                Weather and other preferences give suggestions on indoor and
-                outdoor activies
-              </p>
-              <div className='flex flex-wrap gap-2 mb-4'>
-                {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
-                  <span
-                    className=' bg-[rgb(79,111,82)]  text-[rgb(245,239,230)] py-1 px-3 rounded-full hover:bg-[rgba(79,111,82,0.2)] hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition'
-                    key={key}
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className=' flex justify-between items-center'>
-                <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
-                  href='https://github.com/stevenovak123/SOA_assignment'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  View Code 🡢
-                </a>
-              </div>
-            </div> */}
-            {/* 3.2 */}
-            {/* <div className='p-6 rounded-xl border border-[rgb(79,111,82)]   text-[rgb(245,239,230)] hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition-all'>
-              <h3 className='text-xl font-bold mb-2  text-[rgb(245,239,230)]'>
-                Activity Recommendation Service
-              </h3>
-              <p className='text-[rgb(232,223,202)] mb-3'>
-                Recommends an activity with City as input and then using the
-                Weather and other preferences give suggestions on indoor and
-                outdoor activies
-              </p>
-              <div className='flex flex-wrap gap-2 mb-4'>
-                {['SpringBoot', 'Swagger', 'Java'].map((tech, key) => (
-                  <span
-                    className=' bg-[rgb(79,111,82)]  text-[rgb(245,239,230)] py-1 px-3 rounded-full hover:bg-[rgba(79,111,82,0.2)] hover:shadow-[0_0_15px_rgba(76,175,80,0.4)] transition'
-                    key={key}
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className=' flex justify-between items-center'>
-                <a
-                  className='text-[rgb(79,111,82)] hover:text-[rgb(124,164,128)] transition-colors my-4'
-                  href='https://github.com/stevenovak123/SOA_assignment'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  View Code 🡢
-                </a>
-              </div>
-            </div> */}
           </div>
         </div>
       </RevealOnScroll>
